@@ -6,6 +6,32 @@ Il tourne en local, sur `127.0.0.1`. Il n'envoie aucune donnée à l'extérieur.
 
 ![Icône Portscope](app/icon.png)
 
+![Portscope en thème sombre : résumé des ports, radar des processus et classement par mémoire](docs/screenshots/overview.png)
+
+## Aperçu
+
+Les captures montrent des serveurs de démonstration.
+
+### Radar : qui écoute, et d'où
+
+![Radar annoté : anneau intérieur pour le local, point orange pour un processus joignable depuis le réseau](docs/screenshots/radar.png)
+
+### Liste des processus
+
+![Liste annotée : recherche et filtres, ports, courbe CPU, mémoire et bouton d'arrêt](docs/screenshots/processes.png)
+
+### Détails d'un processus
+
+![Détails du processus demo-api : exécutable, commande, heure de démarrage, connexions et adresses](docs/screenshots/details.png)
+
+### Arrêt avec confirmation
+
+![Fenêtre de confirmation avant l'arrêt du processus demo-web sur le port 3000](docs/screenshots/stop.png)
+
+### Thème clair
+
+![Portscope en thème clair : résumé des ports, radar des processus et classement par mémoire](docs/screenshots/overview-light.png)
+
 ## Fonctions
 
 - Une ligne par processus, avec ses ports TCP et UDP.
